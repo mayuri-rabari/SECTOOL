@@ -1,0 +1,15 @@
+[project]
+name = "sectool"
+version = "1.0.0"
+description = "Mayuri's Cybersecurity CLI Swiss-Army Knife"
+authors = [
+    { name = "Mayuri" }
+]
+dependencies = [
+    "requests",
+    "psutil"
+]
+requires-python = ">=3.10"
+
+[project.scripts]
+sectool = "sectool.cli:main"
